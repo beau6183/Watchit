@@ -94,9 +94,10 @@ test case, please don't hesitate to report them.
 
 ## Contributing
 
+* Install coffee-script globally `npm i -g coffee-script`
 * Install dependencies with `npm install`
 * Make changes in `src`
-* Build with `cake build`
+* Build with `npm run build`
 * Add tests under `test`
 * Run tests via `npm test`
 
