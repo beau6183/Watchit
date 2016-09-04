@@ -133,8 +133,6 @@ watchit = (target, options, callback) ->
           else
             emitter.emit 'rename', target unless options.include
             scanTargetDir() if options.include or options.recurse
-      else
-        throw new Error "Unexpected directory event: #{event}"
 
   scanTargetDir = (initial) ->
     fs.readdir target, (err, items) ->
